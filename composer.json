@@ -1,0 +1,52 @@
+{
+    "name": "garata/laravel-inertiajs-svelte-preset",
+	"version": "1.0.0",
+    "description": "Svelte frontend preset for Laravel.",
+    "keywords": [
+        "svelte",
+        "laravel",
+        "laravel-svelte-preset",
+        "garata"
+    ],
+    "homepage": "https://github.com/garata/laravel-svelte-preset",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Giorgio Arata",
+            "email": "giorgio.arata@consultant.com",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "*",
+        "laravel/ui": "*",
+        "inertiajs/inertia-laravel": "*",
+        "tightenco/ziggy": "*"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Garata\\LaravelSveltePreset\\": "src"
+        }
+    },
+    "autoload-dev": {
+
+    },
+    "scripts": {
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Garata\\LaravelSveltePreset\\LaravelSveltePresetServiceProvider"
+            ]
+        }
+    }
+}
